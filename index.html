@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Landing Page</title>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('fabric clothes.jpg');
+    background-rpeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.header {
+    background: gray;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0;
+    padding: 0 ;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 35px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-content {
+    text-align: center;
+    padding:200px;
+    color:black;
+    margin-top: 100px;
+}
+
+.main-content h1{
+    font-size: 60px;
+}
+
+.main-content p{
+    font-size: 30px;
+}
+
+.footer {
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 155px;
+}
+
+.footer{
+    font-size:20px;
+}
+
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="logo">FabricInfo</div>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">Uses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+            <h1>Welcome to FabricInfo</h1>
+            <p>Learn about different types of fabrics and their uses.</p>
+    </main>
+    <footer class="footer">
+        <span> # FabricInfo</span>
+    </footer>
+</body>
+</html>
